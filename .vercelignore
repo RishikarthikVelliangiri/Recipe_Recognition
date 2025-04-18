@@ -1,0 +1,25 @@
+# .vercelignore
+
+# Ignore Git files
+.git/
+.gitignore
+.gitattributes
+
+# Ignore development notebooks
+*.ipynb
+
+# Ignore raw data if not needed at runtime by app.py
+Recipe Reviews and User Feedback Dataset.csv
+cleaned_recipes.csv
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.env
+
+# Optionally ignore local configuration/scripts if not needed for deployment
+recipe_cloud_generator.py
+# Add other local scripts or config files here
